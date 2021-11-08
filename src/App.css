@@ -1,0 +1,120 @@
+.App {
+  display: grid;
+  width: 1000px;
+  margin: auto;
+  grid-template-columns: 49% 49%;
+}
+h1 { 
+  margin-left: 110px;
+}
+.container {
+  width: 300px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.input-name {
+  width: 100%;
+
+}
+.group { 
+  display: flex;
+  margin-top: 10px;
+  border-bottom: 4px solid orange;
+  padding: 5px;
+  
+}
+.img {
+  width:30px;
+  height: 30px;
+  float: left;
+}
+.input {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.card {
+  margin-top: 15px;
+  font-size: 10px;
+  color : palevioletred;
+}
+.date {
+  width: 40px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.month-year-ccv {
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+  grid-gap: 1%;
+  border-bottom: 4px solid orange;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.pay, button {
+  width: 100px;
+  padding: 4px;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 100px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+
+
+.visa-container { 
+  margin-top: 50px;
+  width: 80%;
+  height: 220px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20%;
+  background-color: tomato;
+  background-image: linear-gradient(to right, yellow , aqua);
+  color: white;
+  box-shadow: 20px 50px 5px gray;
+}
+.visa {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+.chip-container { 
+  width: 80px;
+  height: 70px;
+}
+.chip {
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+}
+.card-number-container {
+  width: 60%;
+  margin-left: 30px;
+  margin-top: 20px;
+
+
+}
+.card-number { 
+  letter-spacing: 6px;
+}
+
+.label {
+  font-weight: 100;
+}
+
+
+.last-container {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  padding: 20px;
+}
+.p {
+  margin-top: -2px;
+}
